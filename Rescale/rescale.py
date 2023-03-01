@@ -1,5 +1,18 @@
 import cv2
 
+#rescaling image
+# img = cv2.imread("Photos\dp.jpg")
+
+# cv2.imshow("My DP", img)
+
+# cv2.waitKey(0)
+
+# reading image from webcam
+
+# capture = cv2.VideoCapture(0)
+
+# Reading images from saved videos 
+
 # Setting up a function to resize
 def rescaleFrame(frame, scale = 0.75):
     width = int(frame.shape[1]*scale)
